@@ -4,13 +4,13 @@ This project is just to extract data from this [[website](https://open-meteo.com
 The sample code automatically applies all the parameters selected above. It includes caching and the conversion to Pandas DataFrames. The use of DataFrames is entirely optional. You can find further details and examples in the Python API client documentation.
 
 ## Install
-```
+```shell
 pip install openmeteo-requests
 pip install requests-cache retry-requests numpy pandas
 ```
 
 ## Usage
-```
+```python
 import openmeteo_requests
 
 import requests_cache
